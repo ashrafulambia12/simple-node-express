@@ -11,12 +11,12 @@ app.get('/', (req, res) => {
     res.send('hello from node rfgdfagdfsgdfgdaf uhfjee ehfjkasdh eefasdkf wow i am excited')
 });
 const users = [
-    { id: 1, name: 'shabana', email: 'shabana@gmail.com', phone: '01715454156' },
-    { id: 2, name: 'shakana', email: 'shakana@gmail.com', phone: '01715454156' },
-    { id: 3, name: 'shamana', email: 'shamana@gmail.com', phone: '01715454156' },
-    { id: 4, name: 'shalana', email: 'shalana@gmail.com', phone: '01715454156' },
-    { id: 5, name: 'shapana', email: 'shapana@gmail.com', phone: '01715454156' },
-    { id: 6, name: 'shanana', email: 'shanana@gmail.com', phone: '01715454156' }]
+    { id: 0, name: 'shabana', email: 'shabana@gmail.com', phone: '01715454156' },
+    { id: 1, name: 'shakana', email: 'shakana@gmail.com', phone: '01715454156' },
+    { id: 2, name: 'shamana', email: 'shamana@gmail.com', phone: '01715454156' },
+    { id: 3, name: 'shalana', email: 'shalana@gmail.com', phone: '01715454156' },
+    { id: 4, name: 'shapana', email: 'shapana@gmail.com', phone: '01715454156' },
+    { id: 5, name: 'shanana', email: 'shanana@gmail.com', phone: '01715454156' }]
 
 app.get('/users', (req, res) => {
     const search = req.query.search;
